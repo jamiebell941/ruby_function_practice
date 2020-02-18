@@ -66,3 +66,18 @@ months = {"Jan" => 1, "Feb" => 2, "Mar" => 3,
       end
     end
 end
+
+def volume_of_cube(length)
+  result = length ** length
+  return result
+end
+
+def volume_of_sphere(radius)
+  result = (3.1415 * (radius ** radius)) * 4/3
+  return result
+end
+
+def fahrenheit_to_celsius(farenheit)
+  celsius = (farenheit - 32) * 5/9 
+  return celsius
+end
